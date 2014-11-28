@@ -1,0 +1,43 @@
+-------------------------------------------------------------------------------------------------
+                                     SYSTEM PARAMETERS
+-------------------------------------------------------------------------------------------------
+ Black Hole Mass [M_sun units]                                              || M.           1E6
+ Black Hole Spin [M. units]                                                 || a            0.9
+ SCO Mass [M. units]                                                        || mu           1.0e-6
+ Eccentricity of the Orbit at t = t_o                                       || e_o          0.7
+ Dimensionless Semi-Latus Rectum of the Orbit at t = t_o                    || p_o          10.
+ Inclination of the Orbit in dg, at t = t_o                                 || theta_inc_o  78.44719 
+ EMRI Polar Angle with respect to the Ecliptic Reference Frame              || theta_S      0.0
+ EMRI Azimuthal Angle with respect to the Ecliptic Reference Frame          || phi_S        0.0
+ Spin Vector Polar Angle with respect to the Ecliptic Reference Frame       || theta_K      0.0
+ Spin Vector Azimuthal Angle with respect to the Ecliptic Reference Frame   || phi_K        0.0
+ Distance to the EMRI divided bu SCO mass [D_L Gpc units m in M.]           || D_L/m        0.5e5
+ Boyer-Lindquist Angle psi [associated with r_BL] at t = t_o                || psi_o        0.0
+ Boyer-Lindquist Angle chi [associated with theta_BL] at t = t_o            || chi_o        0.0
+ Boyer-Lindquist Angle varphi [identical to varphi_BL] at t = t_o           || varphi_o     0.0
+-------------------------------------------------------------------------------------------------
+                              RESONANCE SEARCH AND ANALYSIS
+-------------------------------------------------------------------------------------------------
+ Find resonaces [NOTE: screens: e,p]                                        ||[y/n] n
+ Resonace Order (w_th/w_r=k/n):                                             ||[k,n] 3 1
+ Accuracy                                                                   ||      1.0E-5
+ Final eccentricity:                                                        || e_f  0.2
+ --Eccentricity step size                                                   || De   1.0e-2
+ Final semilatus-rectum: p_f                                                || p_f  3.0
+ --Semilatus-rectum step size                                               || Dp   1.0e-5
+-------------------------------------------------------------------------------------------------
+                                        EVOLUTION
+-------------------------------------------------------------------------------------------------
+ Osculating evolution [y/n], magnitude PN Self-force                        ||      y 0
+ --Include conservative piece of the PN Self-force[y/n]                     ||      0
+ Radiative evolution [y/n]                                                  ||      n
+ Storing rate in sec [n=0]                                                  ||      500
+-------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
+ Evolution Time [yrs]                                                       ||      0.001
+ Sampling Time/Data Saving Time Interval [sec]                              ||      1.0
+ ODE Solver Starting Time Step [Black Hole Mass]                            ||      1.0e-2
+ ODE Solver Minimum Time Step [Black Hole Mass]                             ||      1.0e-9
+ ODE Solver Accuracy [Black Hole Mass]                                      ||      1.0e-10
+-------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
